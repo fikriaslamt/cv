@@ -31,7 +31,7 @@ export default function ResumePage() {
         {JSON.stringify(structuredData)}
       </script>
       <main
-        className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-0 md:p-16"
+        className="container relative mx-auto scroll-my-12 overflow-auto p-6 print:p-0 md:p-20"
         id="main-content"
       >
         <section

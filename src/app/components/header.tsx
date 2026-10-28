@@ -125,11 +125,11 @@ export function Header() {
       </div>
 
       <Image
-        className="size-28 shrink-0 rounded-xl bg-muted object-cover ring-1 ring-muted"
+        className="h-28 w-auto shrink-0 rounded-md bg-muted ring-1 ring-muted"
         src={RESUME_DATA.avatar}
         alt={`${RESUME_DATA.name}'s profile picture`}
-        width={112}
-        height={112}
+        width={204}
+        height={256}
         preload={true}
       />
     </header>
